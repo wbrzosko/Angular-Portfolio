@@ -5,7 +5,7 @@ myApp.config(function ($routeProvider) {
     
     .when('/', {
         templateUrl: 'pages/main.html',
-        controller: 'portfolioController'
+        controller: 'portfolioList'
     })
     .when('/portfolio/:id', {
         templateUrl: 'pages/portfolio.html',
@@ -14,15 +14,35 @@ myApp.config(function ($routeProvider) {
     
 }); 
 
-myApp.factory('PortfolioItems', function() {
+myApp.factory('portfolioItems', function($http) {
+    return {
+        getData: function() {
+            return $http.get('json/portfolio.json');
+        }
+    }
     
 });
 
-myApp.controller('portfolioController', ['$scope','$log', function($scope, $log) {
+myApp.controller('portfolioList', ['$scope','$log', 'portfolioItems', function($scope, $log, portfolioItems) {
     $scope.item = 'This is main site.';
+    $scope.portfolio = null;
+    portfolioItems.getData()
+        .success( function(data) {
+            $scope.portfolio = data.portfolio;
+        })
+        .error( function(data,status,error,config) {
+            $scope.portfolio = 'Error loading data...'; 
+    });
 }]);
 
-myApp.controller('portfolioItem', ['$scope','$log', '$routeParams', function($scope, $log, $routeParams) {
+myApp.controller('portfolioItem', ['$scope','$log', '$routeParams', 'portfolioItems', function($scope, $log, $routeParams, portfolioItems) {
     $scope.item = 'Portfolio.';
     $scope.id = $routeParams.id;
+    portfolioItems.getData()
+        .success( function(data) {
+            $scope.portfolio = data.portfolio[$scope.id];
+        })
+        .error( function(data,status,error,config) {
+            $scope.portfolio = 'Error loading data...'; 
+    });
 }]);

@@ -9,40 +9,40 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/bootstrap\/.editorconfig": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/.editorconfig",
-		"oF": 0
-		},
-	"\/bootstrap\/.gitattributes": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/.gitattributes",
-		"oF": 0
-		},
-	"\/bootstrap\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/.gitignore",
-		"oF": 0
-		},
-	"\/bootstrap\/.hound.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/.hound.yml",
-		"oF": 0
-		},
-	"\/bootstrap\/.travis.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/.travis.yml",
-		"oF": 0
-		},
 	"\/bootstrap\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/bootstrap\/_config.yml",
+		"oF": 0
+		},
+	"\/bootstrap\/_editorconfig": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/bootstrap\/_editorconfig",
+		"oF": 0
+		},
+	"\/bootstrap\/_gitattributes": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/bootstrap\/_gitattributes",
+		"oF": 0
+		},
+	"\/bootstrap\/_gitignore": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/bootstrap\/_gitignore",
+		"oF": 0
+		},
+	"\/bootstrap\/_hound.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/bootstrap\/_hound.yml",
+		"oF": 0
+		},
+	"\/bootstrap\/_travis.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/bootstrap\/_travis.yml",
 		"oF": 0
 		},
 	"\/bootstrap\/bower.json": {
@@ -1761,10 +1761,10 @@
 		"oAP": "\/bootstrap\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/bootstrap\/grunt\/.jshintrc": {
+	"\/bootstrap\/grunt\/_jshintrc": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/grunt\/.jshintrc",
+		"oA": 1,
+		"oAP": "\/bootstrap\/grunt\/_jshintrc",
 		"oF": 0
 		},
 	"\/bootstrap\/grunt\/bs-commonjs-generator.js": {
@@ -1861,16 +1861,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bootstrap\/js\/.jscsrc": {
+	"\/bootstrap\/js\/_jscsrc": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/js\/.jscsrc",
+		"oA": 1,
+		"oAP": "\/bootstrap\/js\/_jscsrc",
 		"oF": 0
 		},
-	"\/bootstrap\/js\/.jshintrc": {
+	"\/bootstrap\/js\/_jshintrc": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/js\/.jshintrc",
+		"oA": 1,
+		"oAP": "\/bootstrap\/js\/_jshintrc",
 		"oF": 0
 		},
 	"\/bootstrap\/js\/affix.js": {
@@ -1987,10 +1987,10 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/bootstrap\/js\/tests\/unit\/.jshintrc": {
+	"\/bootstrap\/js\/tests\/unit\/_jshintrc": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/js\/tests\/unit\/.jshintrc",
+		"oA": 1,
+		"oAP": "\/bootstrap\/js\/tests\/unit\/_jshintrc",
 		"oF": 0
 		},
 	"\/bootstrap\/js\/tests\/unit\/affix.js": {
@@ -2219,18 +2219,18 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bootstrap\/less\/.csscomb.json": {
+	"\/bootstrap\/less\/_csscomb.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/bootstrap\/less\/.csscomb-min.json",
+		"oAP": "\/bootstrap\/less\/_csscomb-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bootstrap\/less\/.csslintrc": {
+	"\/bootstrap\/less\/_csslintrc": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bootstrap\/less\/.csslintrc",
+		"oA": 1,
+		"oAP": "\/bootstrap\/less\/_csslintrc",
 		"oF": 0
 		},
 	"\/bootstrap\/less\/alerts.less": {
