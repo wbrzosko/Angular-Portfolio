@@ -23,9 +23,13 @@ myApp.factory('portfolioItems', function($http) {
     
 });
 
-myApp.controller('portfolioList', ['$scope','$log', 'portfolioItems', function($scope, $log, portfolioItems) {
+myApp.controller('portfolioList', ['$scope', '$log', 'portfolioItems', function($scope, $log, portfolioItems) {
     $scope.item = 'This is main site.';
     $scope.portfolio = null;
+    $scope.scrollTo = function(id) {
+        $location.hash(id);
+        $anchorScroll();
+    };
     portfolioItems.getData()
         .success( function(data) {
             $scope.portfolio = data.portfolio;
