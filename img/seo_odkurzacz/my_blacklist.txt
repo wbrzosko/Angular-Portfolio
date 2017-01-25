@@ -1,4 +1,0 @@
-# to jest komentarz, bo zaczyna się od '#'
-# w czarnej liście można używać wyrażeń regularnych, np.:
-# bardzobrzydkiesłowo[\ \.\,\;\!\?] (oczywiście bez '#' na początku linii)
-# wyrażenie\ złożone\ z\ wielu\ słów

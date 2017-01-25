@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,12 +14,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>  
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
     <script src="js/app.js"></script>
     <script src="js/ui-bootstrap-2.2.0.min.js"></script>
-    <script src="js/custom.js"></script>  
-  </head>
-  <body data-spy="scroll" data-target=".navbar">
+    <script src="js/custom.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
@@ -38,7 +40,7 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-        </div>     
+        </div>
     </nav>
     <header id="header-wb" class="fill">
         <div class="jumbotron vertical-center" id="jumbo-wb">
@@ -50,7 +52,7 @@
         </div>
     </header>
     <section id="bio">
-        <div class="container"> 
+        <div class="container">
             <h2>Bio</h2>
             <div class="col-md-3"></div>
             <div class="col-md-6">
@@ -58,52 +60,32 @@
                 <h3>International School of Stavanger</h3>
                 <h5>Data / Web Manager</h5>
                 <ul>
-                    <li>Administering and developing MIS in education environment – developing its
-                        functionalities, assigning roles, responsibilities and permissions, processing and
-                        reporting data</li>
-                    <li>Configuring and maintaining SQL database environments, including monitoring
-                        of system health and performance</li>
-                    <li>Administering MS SQL servers and databases, participating in creating and
-                        documenting recovery policy, generating reports and data visualization,
-                        conducting data analysis, designing school reports</li>
-                    <li>Performance tuning, optimization and troubleshooting, improving the
-                        performance of SQL queries and stored procedures</li>
-                    <li>Designing reports and dashboards using SSRS and Report Builder, PowerPivot
-                        and Visual Studio (asp.net, C#)</li>
-                    <li>Preparing, designing and deploying data integration solutions with 3rd party
-                        software using Visual Studio and SQL Server Integration Services (SSIS) packages, synchronizing
-                        data from different sources such as parent portal, SMS Gateway, G Suite for Education (Groups, Sheets, GCDS), Teacher Dashboard</li>
-                    <li>Planning and coordinating MIS specific training for teaching and non-teaching
-                        staff</li>
-                    <li>Maintaining and developing website and online resources, blogs network, administering Amazon Web Services environments 
-                        (LAMP on ubuntu)</li>
+                    <li>Administering and developing MIS in education environment – developing its functionalities, assigning roles, responsibilities and permissions, processing and reporting data</li>
+                    <li>Configuring and maintaining SQL database environments, including monitoring of system health and performance</li>
+                    <li>Administering MS SQL servers and databases, participating in creating and documenting recovery policy, generating reports and data visualization, conducting data analysis, designing school reports</li>
+                    <li>Performance tuning, optimization and troubleshooting, improving the performance of SQL queries and stored procedures</li>
+                    <li>Designing reports and dashboards using SSRS and Report Builder, PowerPivot and Visual Studio (asp.net, C#)</li>
+                    <li>Preparing, designing and deploying data integration solutions with 3rd party software using Visual Studio and SQL Server Integration Services (SSIS) packages, synchronizing data from different sources such as parent portal, SMS Gateway, G Suite for Education (Groups, Sheets, GCDS), Teacher Dashboard</li>
+                    <li>Planning and coordinating MIS specific training for teaching and non-teaching staff
+                    </li>
+                    <li>Maintaining and developing website and online resources, blogs network, administering Amazon Web Services environments (LAMP on ubuntu)</li>
                 </ul>
                 <h3>AntiGravity Digital Agency</h3>
                 <h5>LEAD Web Developer</h5>
                 <ul>
-                    <li>Responsible for leading range of web development projects, interacting on a
-                    daily basis with graphic designers and back-end developers. Responsible for
-                    creating tailored web applications such as CMS, mailing system, multiple ecommerce
-                    database integration tool and event management. Web development
-                    using html, css, jQuery, php and mysql (CakePHP, WordPress, Drupal, Prestashop,
-                    Magento, Joomla). Developing and monitoring MySQL and PostgreSQL databases
-                    in terms of data migration and performance tuning. Managing over 100 websites
-                    and blogs.</li>
+                    <li>Responsible for leading range of web development projects, interacting on a daily basis with graphic designers and back-end developers. Responsible for creating tailored web applications such as CMS, mailing system, multiple ecommerce database integration tool and event management. Web development using html, css, jQuery, php and mysql (CakePHP, WordPress, Drupal, Prestashop, Magento, Joomla). Developing and monitoring MySQL and PostgreSQL databases in terms of data migration and performance tuning. Managing over 100 websites and blogs.</li>
                 </ul>
                 <h3>WebUnited Digital Agency</h3>
                 <h5>Web Developer &amp; SEO Specialist</h5>
                 <ul>
-                    <li>Designing, creating, maintaining and improving websites based on Wordpress,
-                    Drupal, Joomla, Prestashop, Cms Made Simple. Designing appealing website
-                    layouts and e-commerce maintenance containing over 10 000 products. Leading
-                    and implementing SEO strategies for key customers.</li>
+                    <li>Designing, creating, maintaining and improving websites based on Wordpress, Drupal, Joomla, Prestashop, Cms Made Simple. Designing appealing website layouts and e-commerce maintenance containing over 10 000 products. Leading and implementing SEO strategies for key customers.</li>
                 </ul>
             </div>
             <div class="col-md-3"></div>
         </div>
     </section>
     <section id="skills">
-        <div class="container">  
+        <div class="container">
             <h2>Skills</h2>
             <div class="col-md-4">
                 <p>HTML</p>
@@ -130,37 +112,57 @@
                 <p>Mongo DB</p>
                 <p>Express JS</p>
             </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">  
-            <h2>Contact</h2>
+            <div class="col-md-6">
+                <h2>Key competencies</h2>
+                <ul>
+                    <li>Broad knowledge of Microsoft SQL Server (SSIS, SSAS and SSRS)</li>
+                    <li>Expertise in T-SQL writing stored procedures and functions</li>
+                    <li>Expertise in query optimization, performance tuning, and troubleshooting</li>
+                    <li>Experience in creating jobs, SQL Mail Agent alerts and scheduling DTS/SSIS Packages</li>
+                    <li>Experience in creating data flows using SSIS, mappings/workflows to extract data from SQL Server, Excel Sheets and flat files</li>
+                    <li>Knowledge of Microsoft Visual Studio 2012+, MVC 5+ and C#</li>
+                    <li>Broad experience with Wordpress, Drupal, CakePHP, Joomla and Prestashop</li>
+                    <li>Experience in administering LAMP, MAMP and IIS environments</li>
+                    <li>Experienced in consuming / building RESTful APIs</li>
+                    <li>Great Search Engine Optimization skills, link building, SEO tools and strategies in high Google rankings</li>
+                    <li>Strategically thinking through all parts of the design and development process</li>
+                    <li>Knowledge of W3C web standards and protocols</li>
+                    <li>Cross-browser compliance and usability (UX) testing</li>
+                    <li>Advanced knowledge of Excel and PowerPivot</li>
+                </ul>
+            </div>
         </div>
     </section>
     <section id="portfolio">
         <div class="container">
-                <h2>Portfolio</h2>
-                <div class="col-md-6 col-xs-12">
-                    <div ng-view>
-                                              
-                    </div>
+            <h2>Portfolio</h2>
+            <div class="col-md-6 col-xs-12">
+                <div ng-view>
 
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <h3>Description</h3>          
-                    <p>Creativity is intelligence having fun - Albert Einstein</p>
-                    <p>A user interface is like a joke. If you have to explain it, it's not that good.</p>  
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac consequat orci, ut porttitor quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tristique, orci vel malesuada gravida, lorem enim rutrum nisl, sed iaculis orci leo ullamcorper lorem. Suspendisse arcu velit, suscipit at mi in, mattis porta dui. Quisque at nisi euismod, volutpat tortor id, placerat ante. Curabitur ut blandit magna. Sed nec purus bibendum, consectetur augue non, finibus lacus. Pellentesque justo nibh, congue id egestas a, rhoncus sed quam. Ut venenatis pulvinar convallis. Ut orci massa, imperdiet nec elit vel, accumsan lobortis nibh. Nam magna turpis, venenatis scelerisque orci ac, condimentum dictum sapien. Nam non quam ut elit tempor euismod.</p>
 
-<p>Curabitur iaculis finibus felis. Aliquam sit amet dui id augue tempus malesuada. Pellentesque vel urna felis. Vivamus arcu ligula, mattis et sem a, dictum condimentum tellus. Phasellus dictum commodo lacus, eu volutpat dolor imperdiet ut. Ut euismod leo sapien, a aliquam felis mattis id. Aenean pellentesque, ante a lobortis mattis, lectus lorem ultrices lectus, at lacinia nulla quam quis ante.</p>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <h3>Description</h3>
+                <p>Creativity is intelligence having fun - Albert Einstein</p>
+                <p>A user interface is like a joke. If you have to explain it, it's not that good.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac consequat orci, ut porttitor quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tristique, orci vel malesuada gravida, lorem enim rutrum nisl, sed iaculis orci leo ullamcorper lorem. Suspendisse arcu velit, suscipit at mi in, mattis porta dui. Quisque at nisi euismod, volutpat tortor id, placerat ante. Curabitur ut blandit magna. Sed nec purus bibendum, consectetur augue non, finibus lacus. Pellentesque justo nibh, congue id egestas a, rhoncus sed quam. Ut venenatis pulvinar convallis. Ut orci massa, imperdiet nec elit vel, accumsan lobortis nibh. Nam magna turpis, venenatis scelerisque orci ac, condimentum dictum sapien. Nam non quam ut elit tempor euismod.</p>
 
-<p>Suspendisse consectetur purus et lorem cursus mattis. In varius ornare nunc faucibus blandit. Nunc accumsan quis sapien sit amet ullamcorper. Mauris eu ligula non mauris dictum lobortis. Integer faucibus, enim eu tempor malesuada, sem neque sagittis nunc, eget tincidunt mauris velit non enim. In et libero sed lectus consequat placerat nec eu dui. Donec bibendum risus nec lacus venenatis cursus. Suspendisse potenti. Nam congue gravida libero at iaculis. Vivamus at dignissim nunc. Curabitur non neque ipsum. In consequat, eros fermentum venenatis condimentum, sem risus vestibulum urna, sit amet porta arcu erat ullamcorper ipsum. Nulla placerat tempor arcu et venenatis. Proin cursus et urna in mattis.</p>
+                <p>Curabitur iaculis finibus felis. Aliquam sit amet dui id augue tempus malesuada. Pellentesque vel urna felis. Vivamus arcu ligula, mattis et sem a, dictum condimentum tellus. Phasellus dictum commodo lacus, eu volutpat dolor imperdiet ut. Ut euismod leo sapien, a aliquam felis mattis id. Aenean pellentesque, ante a lobortis mattis, lectus lorem ultrices lectus, at lacinia nulla quam quis ante.</p>
 
-<p>Nulla facilisi. Integer sed massa est. Pellentesque aliquam gravida aliquam. Nam vel tincidunt nisl, in tristique erat. Aliquam vitae magna sit amet sapien pretium blandit. Integer dictum felis semper justo ultricies, et tristique mauris placerat. Nullam euismod urna at leo auctor, nec porttitor metus sagittis. In viverra rhoncus mauris, eu ultricies erat bibendum id.</p>
+                <p>Suspendisse consectetur purus et lorem cursus mattis. In varius ornare nunc faucibus blandit. Nunc accumsan quis sapien sit amet ullamcorper. Mauris eu ligula non mauris dictum lobortis. Integer faucibus, enim eu tempor malesuada, sem neque sagittis nunc, eget tincidunt mauris velit non enim. In et libero sed lectus consequat placerat nec eu dui. Donec bibendum risus nec lacus venenatis cursus. Suspendisse potenti. Nam congue gravida libero at iaculis. Vivamus at dignissim nunc. Curabitur non neque ipsum. In consequat, eros fermentum venenatis condimentum, sem risus vestibulum urna, sit amet porta arcu erat ullamcorper ipsum. Nulla placerat tempor arcu et venenatis. Proin cursus et urna in mattis.</p>
 
-<p>Pellentesque tortor neque, venenatis ut tincidunt at, vehicula a turpis. Sed quis sem tempor, faucibus augue nec, pulvinar tellus. Nam finibus sit amet massa eu mollis. Aliquam consequat risus eu erat iaculis tristique. Nunc bibendum at augue nec consequat. Nam at maximus enim. Etiam nec faucibus nisl.</p>
-                </div>
+                <p>Nulla facilisi. Integer sed massa est. Pellentesque aliquam gravida aliquam. Nam vel tincidunt nisl, in tristique erat. Aliquam vitae magna sit amet sapien pretium blandit. Integer dictum felis semper justo ultricies, et tristique mauris placerat. Nullam euismod urna at leo auctor, nec porttitor metus sagittis. In viverra rhoncus mauris, eu ultricies erat bibendum id.</p>
+
+                <p>Pellentesque tortor neque, venenatis ut tincidunt at, vehicula a turpis. Sed quis sem tempor, faucibus augue nec, pulvinar tellus. Nam finibus sit amet massa eu mollis. Aliquam consequat risus eu erat iaculis tristique. Nunc bibendum at augue nec consequat. Nam at maximus enim. Etiam nec faucibus nisl.</p>
+            </div>
         </div>
-    </section>  
-  </body>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+        </div>
+    </section>
+</body>
+
 </html>
