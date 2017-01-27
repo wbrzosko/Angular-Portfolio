@@ -6,15 +6,19 @@ html,body {
     height: 100%;
 }
 #header-wb {
-    background: url('../../img/svg.jpg') center center no-repeat;
+    background: url('../../img/svg.jpg') 50% 0px no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
 }
 .navbar-fixed-top {
-    opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    min-height: 69px;
+    padding: 15px 0;
 }
 #jumbo-wb {
     background: rgba(0,0,0, 0.5);
@@ -26,9 +30,15 @@ html,body {
     display: flex;
     align-items: center;
 }
-.navbar-top {
-    min-height: 99px !important;
+
+/* Shrinked menu */
+
+.navbar-fixed-top.navbar-shrink {
+    padding: 0 0;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
 }
+
 .navbar {
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
@@ -48,4 +58,7 @@ html,body {
 }
 section {
     padding-bottom: 8em;
+}
+#jumbo-wb h1 {
+    line-height: 1.1;
 }
