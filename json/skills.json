@@ -1,0 +1,77 @@
+{
+"skills":
+ {
+     "col1" : [
+         {
+            "name": "HTML5",
+            "progress": "90"
+         },
+         {
+            "name": "CSS3",
+            "progress": "90"
+         },
+         {
+            "name": "JavaScript",
+            "progress": "75"
+         },
+         {
+            "name": "PHP",
+            "progress": "70"
+         },
+         {
+            "name": "MySQL",
+            "progress": "80"
+         }
+         
+     ], 
+     "col2" : [
+         {
+            "name": "Microsoft SQL Server 2012/2014",
+            "progress": "90"
+         },
+         {
+            "name": "T-SQL",
+            "progress": "90"
+         },
+         {
+            "name": "SSRS",
+            "progress": "90"
+         },
+         {
+            "name": "SSIS",
+            "progress": "70"
+         }, 
+         {
+            "name": "SSAS",
+            "progress": "50"
+         },
+         {
+            "name": "C#",
+            "progress": "40"
+         }
+     ],
+     "col3" : [
+         {
+            "name": "Node.js",
+            "progress": "70"
+         }, 
+         {
+            "name": "Bootstrap v3",
+            "progress": "90"
+         },         
+         {
+            "name": "AngularJS",
+            "progress": "40"
+         },
+         {
+            "name": "React.js",
+            "progress": "30"
+         },
+
+         {
+            "name": "MongoDB",
+            "progress": "55"
+         }
+     ]   
+ }
+}

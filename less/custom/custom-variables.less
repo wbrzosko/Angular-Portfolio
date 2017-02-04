@@ -13,6 +13,7 @@
 @gray:                   lighten(@gray-base, 33.5%); // #555
 @gray-light:             #828287; // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+@gray-custom:           #a3a3a3;
 
 @brand-primary:         #ff2a63; //old one #5BC0BE;
 @brand-success:         #5cb85c;
@@ -67,8 +68,9 @@
 //** By default, this inherits from the `<body>`.
 @headings-font-family:    @font-family-serif;
 @headings-font-weight:    500;
-@headings-line-height:    2.5;
+@headings-line-height:    1;
 @headings-color:          @gray-dark;
+@headings-margin:         1em;
 
 
 //== Iconography
@@ -662,6 +664,8 @@
 @progress-bar-danger-bg:      @brand-danger;
 //** Info progress bar color
 @progress-bar-info-bg:        @brand-info;
+//** Custom progress bar color
+@progress-bar-custom-bg:      @gray-custom;
 
 
 //== List group

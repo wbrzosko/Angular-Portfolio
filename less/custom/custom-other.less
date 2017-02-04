@@ -5,6 +5,22 @@ html,body {
 .fill {
     height: 100%;
 }
+
+/* Headers Custom Styling */
+
+h1, .h1,
+h2, .h2,
+h3, .h3, 
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: (@headings-margin);
+    margin-bottom: (@headings-margin);
+}
+h3.date {
+    color: @gray-custom;
+}
+
 #header-wb {
     background: url('../../img/svg.jpg') 50% 0px no-repeat;
     background-size: cover;
@@ -19,6 +35,9 @@ html,body {
     filter: alpha(opacity=50); /* For IE8 and earlier */
     min-height: 69px;
     padding: 15px 0;
+}
+.navbar-fixed-top > .active > a {
+    background-color: #ff0000 !important;
 }
 #jumbo-wb {
     background: rgba(0,0,0, 0.5);
@@ -60,5 +79,13 @@ section {
     padding-bottom: 8em;
 }
 #jumbo-wb h1 {
-    line-height: 1.1;
+    margin: 0.1em 0;
+}
+
+
+/* Custom progress-bar */
+
+.progress-bar-custom {
+  .progress-bar-variant(@progress-bar-custom-bg);
+  color: @gray-dark;
 }
