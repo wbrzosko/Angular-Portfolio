@@ -89,3 +89,16 @@ section {
   .progress-bar-variant(@progress-bar-custom-bg);
   color: @gray-dark;
 }
+
+
+/* XS - mobile tweaks */
+@media (max-width: @screen-xs) {
+    h1 { 
+        font-size: floor((@font-size-h1 / 1.6)); 
+    } 
+    h2 { 
+        font-size: floor((@font-size-h2 / 1.6)); 
+        text-align: center;
+    }
+    
+}
