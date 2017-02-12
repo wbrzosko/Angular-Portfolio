@@ -6662,6 +6662,9 @@ h6,
 h3.date {
   color: #a3a3a3;
 }
+.white {
+  color: #fff;
+}
 #header-wb {
   background: url('../../img/svg.jpg') 50% 0px no-repeat;
   background-size: cover;
@@ -6718,14 +6721,18 @@ h3.date {
   /* #skills section styles */
   min-height: 100%;
 }
-#skills h2 {
-  color: white;
-}
 section {
-  padding-bottom: 8em;
+  padding-bottom: 30px;
 }
 #jumbo-wb h1 {
   margin: 0.1em 0;
+}
+/* Certificaions */
+#certs {
+  background: url('../../img/svg2.jpg') 50% 0px no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 /* Timeline styles */
 .timelineContainer {

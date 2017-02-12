@@ -11,7 +11,8 @@ myApp.config(function ($routeProvider) {
         templateUrl: 'pages/portfolio.html',
         controller: 'portfolioItem'
     })
-    
+    .otherwise({
+        redirectTo: '/'});
 }); 
 
 myApp.factory('portfolioItems', function($http) {
