@@ -1,5 +1,15 @@
 
-<div data-ng-repeat="i in portfolio">
-    <h3><a href="#/portfolio/{{$index}}">{{i.title}}</a></a></h3>
-    <p>{{i.description}}</p>
+<div data-ng-repeat="item in portfolio">
+    <div class="row">
+        <h3><a ng-href="#/portfolio/{{$index}}">{{item.title}}</a></a></h3>
+        <div class="col-md-6 col-xs-12">
+            <img src="img/{{item.img}}" />
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <p>{{item.description}}</p>
+            <ul data-ng-repeat="feature in item.features">
+                <li>{{feature.name}}</li>                
+            </ul>
+        </div>
+    </div>
 </div>  

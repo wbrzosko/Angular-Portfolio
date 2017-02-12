@@ -1,7 +1,11 @@
 {
 "portfolio":
  [
-     {"title":"PrestigeCar","description":"Lorem ipsum prestigecar"},
+     {"title":"PrestigeCar","description":"Prestigecar - a car rental company needed a website that would allow people to book their car and calculate the total price.","img" : "prestigecar.png",
+     "features": [
+         {"name": "CakePHP - MVC framework"},
+         {"name": "jQuery"}
+     ]},
      {"title":"MegaDzieciaki","description":"Lorem ipsum megadzieciaki"}
  ]    
 }

@@ -26,24 +26,24 @@
         <div class="container">
             <div class="navbar-header page-scroll">
                 <a class="navbar-brand" href="/">Wojciech Brzosko</a>
-                <button type="button" data-target="#navbar-wb-collapse" data-toggle="collapse" class="navbar-toggle">
+                <button type="button" data-target="#navbar-wb-collapse" data-toggle="collapse" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="navbar-wb-collapse">
+            <div class="collapse navbar-collapse" id="navbar-wb-collapse" ng-class="{'in':!navCollapsed}">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#bio">Bio</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="active"><a href="##bio">Bio</a></li>
+                    <li><a href="##skills">Skills</a></li>
+                    <li><a href="##portfolio">Portfolio</a></li>
+                    <li><a href="##contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header parallax-background parallax-ratio="0.2" id="header-wb" class="fill">
+    <header parallax-background parallax-ratio="0.7" id="header-wb" class="fill">
         <div class="jumbotron vertical-center" id="jumbo-wb">
             <div class="container text-center">
                 <h1>Hello, I'm</h1>
@@ -56,11 +56,12 @@
     <section id="bio">
         <div class="container">
             <h2>/* Bio */</h2>
-            <div class="row">
-                <div class="col-md-3">
+            <ul class="timelineContainer">
+            <li class="row">
+                <div class="col-md-3 col-xs-12">
                     <h3 class="date">from Jan 2014</h3>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-12 timeline">
                     <h3>International School of Stavanger</h3>
                     <h5>Data / Web Manager</h5>
                     <ul>
@@ -75,55 +76,56 @@
                         <li>Maintaining and developing website and online resources, blogs network, administering Amazon Web Services environments (LAMP on ubuntu)</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
+            </li>
+            <li class="row">
                 <div class="col-md-3">
                     <h3 class="date">Jul 2012 - Dec 2013</h3>                
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 timeline">
                     <h3>AntiGravity Digital Agency</h3>
                     <h5>LEAD Web Developer</h5>
                     <ul>
                         <li>Responsible for leading range of web development projects, interacting on a daily basis with graphic designers and back-end developers. Responsible for creating tailored web applications such as CMS, mailing system, multiple ecommerce database integration tool and event management. Web development using html, css, jQuery, php and mysql (CakePHP, WordPress, Drupal, Prestashop, Magento, Joomla). Developing and monitoring MySQL and PostgreSQL databases in terms of data migration and performance tuning. Managing over 100 websites and blogs.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
+            </li>
+            <li class="row">
                 <div class="col-md-3">
                     <h3 class="date">Jan 2010 - Jul 2012</h3>                
                 </div>
-                <div class="col-md-6"> 
+                <div class="col-md-6 timeline"> 
                     <h3>WebUnited Digital Agency</h3>
                     <h5>Web Developer &amp; SEO Specialist</h5>
                     <ul>
                         <li>Designing, creating, maintaining and improving websites based on Wordpress, Drupal, Joomla, Prestashop, Cms Made Simple. Designing appealing website layouts and e-commerce maintenance containing over 10 000 products. Leading and implementing SEO strategies for key customers.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
+            </li>
+            <li class="row">
                 <div class="col-md-3">
                     <h3 class="date">Aug 2009 - Jan 2010</h3>                
                 </div>
-                <div class="col-md-6"> 
+                <div class="col-md-6 timeline"> 
                     <h3>LIVECHAT Software S.A.</h3>
                     <h5>Partner Manager</h5>
                     <ul>
                         <li>Acquiring strategic business partners, relationship management with international software resellers from USA and Europe. Maintaining high volume plans and pricing.</li>
                     </ul>
                 </div>
-            </div>  
-            <div class="row">
+            </li>  
+            <li class="row">
                 <div class="col-md-3">
                     <h3 class="date">Oct 2007 - Jun 2009</h3>                
                 </div>
-                <div class="col-md-6"> 
+                <div class="col-md-6 timeline"> 
                     <h3>Immersum - New Marketing Lab</h3>
                     <h5>Technology Director</h5>
                     <ul>
                         <li>Involved in creating innovative campaigns in new media such as viral marketing, word of mouth and buzz marketing. Responsible for technology and system integration: Flash, PHP, MySQL, MS SQL and ASP.NET. Involved in creating one of the most efficient viral marketing campaigns in Poland for Studi.net.</li>
                     </ul>
                 </div>
-            </div> 
+            </li>
+            </ul>
             <div class="row">
  
                 <div class="text-center">
@@ -188,8 +190,24 @@
         <div class="container">
             <h2>/* Courses and certifications */</h2>
             <div class="col-md-12 col-xs-12">
+                <h5>Trainings</h5>
+                
+                <p><strong>MCSA:</strong></p>
                 <ul>
-                    <li></li>
+                    <li>Implementing Data Models and Reports with Microsoft SQL Server 2012</li>
+                    <li>Administering Microsoft SQL Server Database</li>
+                </ul>
+                <h5>Certifications</h5>
+                <ul>
+                    <li>Administering Microsoft SQL Server 2012/2014 Databases</li>
+                    <li><a href="https://www.udemy.com/certificate/UC-FPF283CC/">Learn and Understand AngularJS</a></li>
+                    <li><a href="https://www.udemy.com/certificate/UC-SRKMJU43/" target="_blank">A 13 Hour SQL Server 2014 /ASP.NET/CSS/C#/jQuery Course</a></li>
+                </ul>
+                <h5>Languages</h5>
+                <ul>
+                    <li>English: Full professional proficiency</li>
+                    <li>Norwegian: Limited working proficiency</li>
+                    <li>Polish: Native or bilingual proficiency</li>
                 </ul>
             </div>
         </div>
@@ -198,6 +216,7 @@
         <div class="container">
             <h2>/* Contact */</h2>
             <p>@: <a href="mailto:wbrzosko@gmail.com">wbrzosko@gmail.com</a></p>
+            <p>m: +47 98 89 53 52</p>
             <p>t: <a href="https://twitter.com/woj_bro">twitter.com/woj_bro</a></p>
             <p>l: <a href="https://www.linkedin.com/in/wbrzosko/">linkedin.com/in/wbrzosko/</a></p>
             <p>g: <a href="https://github.com/wbrzosko">github.com/wbrzosko</a></p>
