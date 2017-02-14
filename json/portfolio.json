@@ -4,8 +4,41 @@
      {"title":"PrestigeCar","description":"Prestigecar - a car rental company needed a website that would allow people to book their car and calculate the total price.","img" : "prestigecar.png",
      "features": [
          {"name": "CakePHP - MVC framework"},
+         {"name": "jQuery"},
+         {"name": "Custom CMS Module"},
+         {"name": "Custom Booking Module"}
+     ]},
+     {"title":"Grey Music Club","description":"Lorem ipsum megadzieciaki",
+     "features": [
+         {"name": "Wordpress CMS"},
+         {"name": "Responsive design"}
+     ]}, 
+     {"title":"Galena","description":"Lorem ipsum megadzieciaki",
+     "features": [
+         {"name": "Drupal CMS"},
+         {"name": "Adobe Flash (AS3)"},
+         {"name": "Contest Module"},
+         {"name": "Rating system"}
+     ]},
+     {"title":"BMK CR","description":"Lorem ipsum megadzieciaki",
+     "features": [
+         {"name": "CMS Made Simple"},
+         {"name": "Newsletter Module"},
          {"name": "jQuery"}
      ]},
-     {"title":"MegaDzieciaki","description":"Lorem ipsum megadzieciaki"}
+     {"title":"VENEX","description":"Lorem ipsum megadzieciaki",
+     "features": [
+         {"name": "Prestashop"},
+         {"name": "XML integrations"}
+     ]},
+     {"title":"EXXXTREME","description":"Lorem ipsum megadzieciaki",
+     "features": [
+         {"name": "Prestashop"},
+         {"name": "XML integrations"}
+     ]},
+     {"title":"SOLID SOLUTIONS","description":"Lorem ipsum megadzieciaki",
+     "features": [
+         {"name": "Drupal CMS"}
+     ]}
  ]    
 }
