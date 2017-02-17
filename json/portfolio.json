@@ -1,44 +1,47 @@
 {
 "portfolio":
  [
-     {"title":"PrestigeCar","description":"Prestigecar - a car rental company needed a website that would allow people to book their car and calculate the total price.","img" : "prestigecar.png",
+     {"title":"PRESTIGECAR","description": "","img" : "prestigecar.png", "link" : "http://prestigecar.venex.nazwa.pl",
      "features": [
          {"name": "CakePHP - MVC framework"},
          {"name": "jQuery"},
          {"name": "Custom CMS Module"},
          {"name": "Custom Booking Module"}
      ]},
-     {"title":"Grey Music Club","description":"Lorem ipsum megadzieciaki",
+     {"title":"GREY MUSIC CLUB","description":"","img" : "grey.png", "link" : "http://www.greymusicclub.pl",
      "features": [
-         {"name": "Wordpress CMS"},
+         {"name": "Wordpress"},
          {"name": "Responsive design"}
      ]}, 
-     {"title":"Galena","description":"Lorem ipsum megadzieciaki",
+     {"title":"GALENA","description":"","img" : "galena.png", "link" : "http://megadzieciaki.venex.nazwa.pl",
      "features": [
-         {"name": "Drupal CMS"},
+         {"name": "Drupal"},
          {"name": "Adobe Flash (AS3)"},
          {"name": "Contest Module"},
          {"name": "Rating system"}
      ]},
-     {"title":"BMK CR","description":"Lorem ipsum megadzieciaki",
+     {"title":"BMK CR","description":"","img" : "bmkcr.png", "link" : "http://www.bmk-cr.pl",
      "features": [
          {"name": "CMS Made Simple"},
          {"name": "Newsletter Module"},
          {"name": "jQuery"}
      ]},
-     {"title":"VENEX","description":"Lorem ipsum megadzieciaki",
+     {"title":"VENEX","description":"","img" : "venex.png", "link" : "http://www.venex.pl",
      "features": [
          {"name": "Prestashop"},
-         {"name": "XML integrations"}
+         {"name": "XML integrations"},
+         {"name": "Search Enginge Optimization"}
      ]},
-     {"title":"EXXXTREME","description":"Lorem ipsum megadzieciaki",
+     {"title":"EXXXTREME","description":"","img" : "exxxtreme.png", "link" : "http://www.exxxtreme.eu",
      "features": [
          {"name": "Prestashop"},
-         {"name": "XML integrations"}
+         {"name": "XML integrations"},
+         {"name": "Search Enginge Optimization"}         
      ]},
-     {"title":"SOLID SOLUTIONS","description":"Lorem ipsum megadzieciaki",
+     {"title":"SOLID SOLUTIONS","description":"","img" : "solidsolutions.png", "link" : "http://solidsolutions.pl",
      "features": [
-         {"name": "Drupal CMS"}
+         {"name": "Drupal"},
+         {"name": "MS SQL integrations"}
      ]}
  ]    
 }

@@ -1,11 +1,6 @@
 html,body {
     height:100%;
 }
-/* Full height Header */ 
-.fill {
-    height: 100%;
-}
-
 /* Headers Custom Styling */
 
 h1, .h1,
@@ -20,9 +15,29 @@ h6, .h6 {
 h3.date {
     color: @gray-custom;
 }
+
+ul li {
+    line-height: 2.4em;
+}
+
+
 .white {
     color: #fff;
 }
+
+/* Full height Header */ 
+.fill {
+    height: 100%;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+/*header */
 
 #header-wb {
     background: url('../../img/svg.jpg') 50% 0px no-repeat;
@@ -33,6 +48,8 @@ h3.date {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
 }
+
+/* Sticked menu at the top*/
 .navbar-fixed-top {
     opacity: 0.9;
     filter: alpha(opacity=90); /* For IE8 and earlier */
@@ -42,16 +59,6 @@ h3.date {
 }
 .navbar-fixed-top > .active > a {
     background-color: #ff0000 !important;
-}
-#jumbo-wb {
-    background: rgba(0,0,0, 0.5);
-}
-
-.vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-    display: flex;
-    align-items: center;
 }
 
 /* Shrinked menu */
@@ -73,26 +80,47 @@ h3.date {
     background: transparent;
 }
 
-/* Skills */
-#skills {
-    background: #333;
+/* Jumbotron header Hello */
+
+#jumbo-wb {
+    background: rgba(0,0,0, 0.5);
 }
 
-#skills {
-    /* #skills section styles */
-    min-height: 100%;
+#jumbo-wb h1 {
+    margin: 0.1em 0;
 }
-
 
 
 section {
-    padding-bottom: 30px;
+    padding-bottom: @font-size-h2;
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#jumbo-wb h1 {
-    margin: 0.1em 0;
+
+
+.portfolioitem {
+    border-bottom: 1px dashed #999;
+    padding-bottom: @font-size-h3;
+}
+
+.portfolioitem:nth-child(even){ 
+    background-color: #f9f9f9;
+
+}
+.portfolioitem:nth-child(odd){
+    background-color: #fff;
+}
+.portfolioitem:last-child{
+    border-bottom: none;
+}
+
+/* Specifict Sections */
+
+/* Skills */
+#skills {
+    background: #333;
+    min-height: 100%;    
 }
 
 /* Certificaions Section */
