@@ -7,7 +7,7 @@
 		"uuidString": "BD9E1631-A508-43DA-88DA-26F4D617EBAF"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/bootstrap\/_config.yml": {
 		"ft": 8192,
@@ -3499,6 +3499,22 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/custom\/custom-bootstrap.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/custom\/custom-bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/custom\/custom-bootstrap.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/custom\/custom-bootstrap.css.map",
+		"oF": 0
+		},
 	"\/custom\/custom-bootstrap.less": {
 		"aP": 0,
 		"bl": 0,
@@ -3511,6 +3527,40 @@
 		"oAP": "\/custom\/custom-bootstrap.css",
 		"oF": 0,
 		"oS": 1,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/custom\/custom-other.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/custom\/custom-other.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/custom\/custom-variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/custom\/custom-variables.css",
+		"oF": 0,
+		"oS": 0,
 		"rU": 0,
 		"sI": 0,
 		"sM": 0,
@@ -4397,6 +4447,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -4725,6 +4779,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -4818,6 +4876,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
